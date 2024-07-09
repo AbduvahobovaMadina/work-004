@@ -104,7 +104,7 @@
         // i will be an integer. Double it and return it.
         return i * 2;
       }
-      console.log(doubleInteger(9));//18
+    //   console.log(doubleInteger(9));//18
 
 }
 {
@@ -125,5 +125,38 @@
         return b.toString()
       }
 
-      console.log(booleanToString(true));
+    //   console.log(booleanToString(true));
+}
+{
+    // 13.Your task is to create a function that does four basic mathematical operations.
+    function basicOp(operation, value1, value2){
+        //Code
+          switch (operation) {
+              case '+':
+                  return value1 + value2;
+              case '-':
+                  return value1 - value2;
+              case '*':
+                  return value1 * value2;
+              case '/':
+                  if (value2 !== 0) {
+                      return value1 / value2;
+                  } else {
+                      return "Division by zero is not allowed.";
+                  }
+              default:
+                  return "Invalid operator";
+          }
+      }
+// console.log(basicOp("+", 4, 7));//11
+}
+
+
+{
+    // 14.Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
+    function litres(time) {
+        return 0;
+      }
+
+      
 }
